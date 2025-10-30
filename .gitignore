@@ -1,5 +1,10 @@
 .env
 
+/docs/the-order/
+/docs/the-order/.*
+/docs/the-order/*
+/docs/the-order/**
+
 # Cache, session files and logs (Symfony3)
 /var/cache/*
 /var/data/*

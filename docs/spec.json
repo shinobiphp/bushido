@@ -1,0 +1,102 @@
+{
+  "ecosystem": "Shinobi",
+  "framework": {
+    "name": "Bushido",
+    "version": "1.0.0",
+    "language": "PHP 8.4+",
+    "description": "Opinionated, modular PHP framework encapsulating best practices, composable patterns, and enterprise-grade features.",
+    "principles": [
+      {
+        "name": "Modularity",
+        "description": "Self-contained, discoverable, reusable components."
+      },
+      {
+        "name": "Composability",
+        "description": "Assemble complex systems from simple, predictable building blocks."
+      },
+      {
+        "name": "EventDriven",
+        "description": "Synchronous and asynchronous flows as first-class citizens for resilient architectures."
+      },
+      {
+        "name": "Observability",
+        "description": "Logging, metrics, and tracing built-in for operational insight."
+      },
+      {
+        "name": "Security",
+        "description": "Zero-trust defaults, signed messages, and idempotent operations."
+      },
+      {
+        "name": "Discipline",
+        "description": "Opinionated conventions, patterns, and standards for consistent codebases."
+      },
+      {
+        "name": "Scalability",
+        "description": "Support for growth, distributed workloads, and high performance."
+      },
+      {
+        "name": "Extensibility",
+        "description": "Plug-in modules, adapters, and integrations for evolving business requirements."
+      },
+      {
+        "name": "Resilience",
+        "description": "Automated retries, failure compensation, and fault-tolerant orchestration."
+      }
+    ],
+    "runtimes": [
+      {
+        "name": "Web",
+        "description": "Standard PHP web runtime supporting FastRoute, HTTP request/response handling."
+      },
+      {
+        "name": "CLI",
+        "description": "Command-line runtime powered by Symfony Console."
+      },
+      {
+        "name": "Swoole",
+        "description": "Asynchronous runtime supporting high concurrency and long-running processes."
+      }
+    ],
+    "modules": {
+      "discovery": "Reflection and attribute-based auto-discovery of components, commands, events, queries, routes.",
+      "commands": "CLI commands and custom application commands.",
+      "events": "Event-driven architecture support for publish/subscribe patterns.",
+      "queues": "Task queues with retries and outbox pattern.",
+      "dto": "Immutable data transfer objects for message passing and system boundaries.",
+      "config": "Environment-aware configuration via PHP dotenv.",
+      "cache": "Pluggable caching subsystem.",
+      "logging": "Structured logging with optional telemetry integration.",
+      "filesystem": "Abstraction over local and remote storage.",
+      "database": "ORM or repository patterns, transactional integrity, PostgreSQL backed CSR/Cognition substrate.",
+      "security": "Zero-trust defaults, message signing, identity verification.",
+      "ui": "Composable front-end components for Astro/Alpine.js, templating for web apps."
+    }
+  },
+  "platform": {
+    "name": "Shinobi",
+    "description": "Composable business capability server for enterprise applications, providing federated nodes, context repository, and message moderation.",
+    "capabilities": [
+      "Federated service nodes with dynamic component registration",
+      "Context repository maintaining semantic state and system behavior",
+      "Message moderator handling sync, async, and event-based communication",
+      "Traceability, visibility, retries, and failure compensation",
+      "Versioned bindable components for modular business logic"
+    ],
+    "interop": [
+      "gRPC for inter-node communication",
+      "JSON/REST for external API contracts",
+      "OpenSwoole for concurrency and async task workers"
+    ],
+    "outbox": "Message reliability pattern with retry, circuit breakers, and idempotency."
+  },
+  "documentation": {
+    "url": "https://shinobiforge.online",
+    "readme": "Provides installation, configuration, guides, and tutorials for Bushido and Shinobi."
+  },
+  "license": {
+    "type": "multi",
+    "oss": "Free for non-commercial, educational, or open-source use.",
+    "cla": "Contributor License Agreement granting extended usage rights to contributors.",
+    "commercial": "Requires express written permission and licensing agreement for commercial use."
+  }
+}
