@@ -1,0 +1,26 @@
+.env
+
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/data/*
+/var/logs/*
+/var/run/*
+/var/sessions/*
+/var/tmp/*
+/var/uploads/*
+
+!var/cache/.gitkeep
+!var/data/.gitkeep
+!var/logs/.gitkeep
+!var/run/.gitkeep
+!var/sessions/.gitkeep
+!var/tmp/.gitkeep
+!var/tmp/uploads/.gitkeep
+
+/vendor/
+/vendor/*
+/vendor/**
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
